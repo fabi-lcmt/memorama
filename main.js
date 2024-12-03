@@ -6,8 +6,8 @@ let segRes = null;
 let mov = 0;
 let acet = 0;
 let temp = false;
-let timer = 120;
-let timerIni = 120;
+let timer = 180;
+let timerIni = 180;
 let tmpReg = null;
 
 let mostrarMov = document.getElementById('mov');
@@ -100,7 +100,7 @@ function reiniciar() {
     mov = 0;
     acet = 0;
     temp = false;
-    timer = 120;
+    timer = 180;
     clearInterval(tmpReg);
 
     mostrarMov.innerHTML = `Movimientos: ${mov}`;
